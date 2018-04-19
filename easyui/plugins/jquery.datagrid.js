@@ -1773,6 +1773,7 @@ td=td.next();
 };
 };
 $.fn.datagrid=function(_1b2,_1b3){
+
 if(typeof _1b2=="string"){
 return $.fn.datagrid.methods[_1b2](this,_1b3);
 }

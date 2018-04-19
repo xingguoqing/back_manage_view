@@ -1,66 +1,23 @@
-<html>  
-<head>  
-    <title>菜单列表</title>  
-      
-<!-- <base href="http://localhost:8080/mysys/">   -->
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
-<link rel="stylesheet" type="text/css" href="easyui/themes/default/easyui.css">  
-<link rel="stylesheet" type="text/css" href="easyui/themes/icon.css">  
-<script type="text/javascript" src="easyui/jquery.min.js"></script>  
-<script type="text/javascript" src="easyui/jquery.easyui.min.js"></script>  
-<script src="easyui/locale/easyui-lang-zh_CN.js"></script>  
-<!-- <script type="text/javascript" src="js/js.js"></script>   -->
-  
-<!-- <link rel="stylesheet" type="text/css" href="css/icon.css">   -->
-    <script type="text/javascript" src="js/menuList.js?d=4"></script>  
-    <style type="text/css">  
-    .fitem{  
-        margin: 5px;  
-    }  
-    .fitem label{  
-        display:inline-block;  
-        width: 70px;      
-        text-align: right;    
-    }  
-    .panel.datagrid{  
-        margin: 0 auto;  
-    }  
-/*  修改表格表头里面字体大小  */  
-    .datagrid-header .datagrid-cell span{  
-        font-size: 18px;  
-    }  
-/*  修改表格里面字体大小 */  
-    .datagrid-cell{  
-        font-size: 16px;  
-    }  
-/*  修改表格行高 */  
-    .datagrid-row {  
-        height: 40px;  
-    }  
-    td[field="enable"] td{  
-         text-align: center;  
-    }  
-    </style>  
-    <style type="text/css">  
-/*      treegrid拖动效果 */  
-        .row-top td{  
-            border-top:1px solid red;  
-            background:#fff;  
-        }  
-        .row-bottom td{  
-            border-bottom:1px solid red;  
-            background:#fff;  
-        }  
-        .row-append td{  
-            border:0;  
-            background:#FBEC88;  
-        }  
-    </style>  
-</head>  
-<body>  
-    <!--     数据网格 -->  
-    <table id="tg" title="商品分类列表"   
-        style="width:100%;height:auto;margin:0 auto;">  
-    </table>  
-</body>  
+<html>
+<head>
+    <title>菜单列表</title>
+
+    <!-- <base href="http://localhost:8080/mysys/">   -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="easyui/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="easyui/themes/icon.css">
+    <script type="text/javascript" src="easyui/jquery.min.js"></script>
+    <script type="text/javascript" src="easyui/jquery.easyui.min.js"></script>
+    <script src="easyui/locale/easyui-lang-zh_CN.js"></script>
+
+    <!--  请求地址配置文件，必须第一个引入  -->
+    <script type="text/javascript" src="js/config.js"></script>
+    <script type="text/javascript" src="js/goodsType.js?d=4"></script>
+</head>
+<body>
+<!--     数据网格 -->
+<table id="tg" title="商品分类列表"
+       style="width:100%;height:auto;margin:0 auto;">
+</table>
+</body>
 </html>  
